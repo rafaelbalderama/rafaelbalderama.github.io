@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {background-color: #778899;}
+* {
+    font-family: 'Oswald';
+}
+.centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 235px;
+    background: #fff;
+    height: 600px;
+    border: 100px;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.checkbox-round {
+    width: 1.6em;
+    height: 1.6em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+.sub {
+    width: 80px;
+    background-color: green;
+    color:  white;
+}
+
+.res {
+    width: 80px;
+    background-color: red;
+    color: white;
+}
