@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trends in Application Development Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+<!-- w3-content defines a container around the whole page content.
+-->
+<div class="w3-content" style="max-width:1400px">
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+<h1><b>Trends in Application Development Project</b></h1>
+<p>DATABASE <span class="w3-tag">& BACKEND BASICS</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Project templates -->
+<div class="w3-col l8 s12">
+<!-- Title -->
+<div class="w3-card-4 w3-margin w3-white">
+<div class="w3-container">
+<h3><b>Title Page:</b></h3>
+<h5> Description<span class="w3-opacity">2024</span></h5>
+</div>
+
+<div class="w3-container">
+<p>Include the title of your project and the names of your team
+members.</p>
+</div>
+</div>
+<hr>
+
+<!-- Problem Statement -->
+<div class="w3-card-4 w3-margin w3-white">
+<div class="w3-container">
+<h3><b>Problem Statement</b></h3>
+<h5>Description, <span class="w3-opacity">2024
+</span></h5>
+</div>
+
+<div class="w3-container">
+<p>Briefly describe the problem addressed by your project.</p>
+</div>
+</div>
+</div>
+
+<hr>
+
+<!-- Members -->
+<div class="w3-card-4 w3-margin w3-white">
+<div class="w3-container">
+<h3><b>Project Members</b></h3>
+</div>
+
+<div class="w3-container">
+<table>
+<tr>
+<th>Member </th>
+<th>Description</th>
+</tr>
+<tr>
+{% for x in obj %}
+<td>{{x.name}}</td>
+<td>{{x.description}}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+</div>
+
+<!-- Introduction -->
+<div class="w3-col l4">
+<!-- About Card -->
+<div class="w3-card w3-margin w3-margin-top">
+<div class="w3-container w3-white">
+<h4><b>Current Work & Next Step</b></h4>
+<p>Demonstrate the current progress of your project in the video
+presentation by showcasing its working features. Outline the subsequent actions
+required to complete your project, including revisions, new features, or other
+improvements.</p>
+</div>
+</div><hr>
+<!-- Features -->
+<div class="w3-card w3-margin">
+<div class="w3-container w3-padding">
+<h4>Features</h4>
+</div>
+<ul class="w3-ul w3-hoverable w3-white">
+<li class="w3-padding-16">
+<span class="w3-large">Feature1</span><br>
+<span>Administrator Module</span>
+</li>
+<li class="w3-padding-16">
+<span class="w3-large">Feature2</span><br>
+<span>Faculty Module</span>
+</li>
+<li class="w3-padding-16">
+<span class="w3-large">Feature3</span><br>
+<span>Administrative Assistant Module</span>
+</li>
+<li class="w3-padding-16 w3-hide-medium w3-hide-small">
+<span class="w3-large">Feature4</span><br>
+<span>Staff Module</span>
+</li>
+</ul>
+</div>
+<hr>
+<!-- Labels / tags -->
+<div class="w3-card w3-margin">
+<div class="w3-container w3-padding">
+<h4>Tags</h4>
+</div>
+<div class="w3-container w3-white">
+<p><span class="w3-tag w3-black w3-margin-bottom">Tag1</span> <span
+class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag2</span> <span
+class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag3</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag4</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag5</span> <span
+class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag6</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag7</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag8</span> <span
+class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag9</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag10</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag11</span> <span
+class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag12</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag1</span>
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tag14</span>
+</p>
+</div>
+</div>
+<!-- END Introduction Menu -->
+</div>
+<!-- END GRID -->
+</div><br>
+<!-- END w3-content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+<p>Copyright 2024 <a href="#">Ma. Theresa M. Aguilar</a></p>
+</footer>
+</body>
+</html>
